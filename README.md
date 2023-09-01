@@ -1,8 +1,9 @@
-# { name } resume
+# striderkein's resume
 
-## Sample
-
-https://github.com/kawamataryo/resume
+## Data
+- [GitHub Pages](https://striderkein.github.io/Curriculum-Vitae)
+- [PDF](https://github.com/striderkein/Curriculum-Vitaeresume/releases)
+- [File](https://github.com/striderkein/Curriculum-Vitaeresume/blob/master/docs/README.md)
 
 ## Features
 
