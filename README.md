@@ -1,9 +1,9 @@
 # striderkein's resume
 
 ## Data
-- [GitHub Pages](https://striderkein.github.io/Curriculum-Vitae)
-- [PDF](https://github.com/striderkein/Curriculum-Vitaeresume/releases)
-- [File](https://github.com/striderkein/Curriculum-Vitaeresume/blob/master/docs/README.md)
+<!-- - [GitHub Pages](https://striderkein.github.io/Curriculum-Vitae) --><!-- 準備中 -->
+- [PDF](https://github.com/striderkein/Curriculum-Vitae/releases)
+- [File](https://github.com/striderkein/Curriculum-Vitae/blob/master/docs/README.md)
 
 ## Features
 
