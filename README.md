@@ -1,7 +1,6 @@
 # striderkein's resume
 
 ## Data
-
 - [GitHub Pages](https://striderkein.github.io/Curriculum-Vitae)
 - [PDF](https://github.com/striderkein/Curriculum-Vitae/releases/latest)
 - [File](https://github.com/striderkein/Curriculum-Vitae/blob/master/docs/README.md)
@@ -12,19 +11,21 @@
 
 Automatic proofreading with [textlint](https://github.com/textlint/textlint).
 
-```node
-npm run lint --fix
 ```
-
+$ npm run lint --fix
+```
 It is also automatically executed when pre-commit by [husky](https://github.com/typicode/husky).  
 proofreading rules are set with `.textlintrc`.
+
+
 
 ### 📝 Convert MD to PDF
 
 You can generate PDF with [md-to-pdf](https://www.npmjs.com/package/md-to-pdf).
 
-```node
-npm run build:pdf
+
+```
+$ npm run build:pdf
 ```
 
 The output PDF can be styled as you like with CSS. Edit the `pdf-configs/style.css`.  
