@@ -16,6 +16,8 @@ jobs:
       - run: npm install
       - name: build pdf
         run: npm run build:pdf
+      - name: build pdf-en
+        run: npm run build:pdf-en
       - name: Get release
         id: get_release
         uses: bruceadams/get-release@v1.3.2
@@ -31,3 +33,14 @@ jobs:
           asset_path: ./docs/README.pdf
           asset_name: Curriculum-Vitae.pdf
           asset_content_type: application/pdf
+      - name: upload Release Asset en
+        id: upload-release-asset-en
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.get_release.outputs.upload_url }}
+          asset_path: ./docs/en/README.pdf
+          asset_name: Curriculum-Vitae-en.pdf
+          asset_content_type: application/pdf
+
