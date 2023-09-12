@@ -6,8 +6,8 @@
   - [ja](https://striderkein.github.io/Curriculum-Vitae)
   - [en](https://striderkein.github.io/Curriculum-Vitae/en)
 - PDF
-  - [ja](https://github.com/striderkein/Curriculum-Vitae/releases/latest)
-  - [en](https://github.com/striderkein/Curriculum-Vitae-en/releases/latest)
+  - [ja](https://github.com/striderkein/Curriculum-Vitae/releases/latest/download/Curriculum-Vitae.pdf)
+  - [en](https://github.com/striderkein/Curriculum-Vitae/releases/latest/download/Curriculum-Vitae-en.pdf)
 - File
   - [ja](https://github.com/striderkein/Curriculum-Vitae/blob/master/docs/README.md)
   - [en](https://github.com/striderkein/Curriculum-Vitae/blob/master/docs/en/README.md)
