@@ -159,8 +159,6 @@ Development of a PWA (Progressive Web App) for retail electricity provider's con
 
 ### Mulodo Co., Ltd.（2019/03 - 2019/12）
 
-受託開発
-
 Outsourced Development
 
 - Development and maintenance of inventory management tool for an EC site operator
@@ -183,8 +181,6 @@ Outsourced Development
     - Front-end implementation using React Native (Web, iOS, Android)
 
 ### Koei System Co., Ltd.（2017/10 - 2019/02）
-
-配車システムの開発とサービス提供
 
 Development and Service Provision of a Dispatch System
 
@@ -365,7 +361,7 @@ SES
 
 ### Pleasant Co., Ltd.（2012/10 - 2013/02）
 
-金融機関向けミドルウェアの機能追加開発
+Development of additional features for middleware for financial institutions.
 
 - **Project Scale:**
   - Development with a team of 3 people
