@@ -35,6 +35,12 @@ npm run build:pdf
 
 The output PDF can be styled as you like with CSS. Edit the `pdf-configs/style.css`.  
 
+### :label: Versioning Semantically by label
+
+versioning semantically by applying labels that `major`, `minor`, `patch`.
+If no label is applied, the default version will be incremented as `patch`.
+If you want to explicitly increase a version other than `patch`, Attach either `major` or `minor` label to PR
+
 ### 📆 Remind update
 
 Automatically generate issues every three months with GitHub Actions Schedules triggers to prompt you to update your resume.
