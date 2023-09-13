@@ -81,7 +81,7 @@ Led the design and implementation of additional features to enhance user conveni
 
 ### 2nd Community Co., Ltd.（2022/01 - 2022/07）
 
-lead engineer for video streaming, on a site with 20,000 unique users
+lead engineer for video streaming, on a site with 40,000 unique users
 involved in the development of a Web application that utilizes WebRTC to enable features such as chat, video meetings, and drawing for online lessons.
 
 - **Project Scale:**
