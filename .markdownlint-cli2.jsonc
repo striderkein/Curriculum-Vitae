@@ -5,5 +5,5 @@
     "MD033": false,
     "MD034": false
   },
-  "ignores": [".git", "node_modules", ".hasky"]
+  "ignores": ["node_modules"]
 }
