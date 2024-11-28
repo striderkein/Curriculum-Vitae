@@ -106,7 +106,7 @@ involved in the development of a Web application that utilizes WebRTC to enable 
   - Implementing the ability to attach files and use emojis in the chat feature
   - Implementing Undo/Redo functionality for the drawing feature using localStorage
 - **Reason for leaving**
-  - Invasion of Privacy: Required to Keep Camera On During Work Hours
+  - Privacy violation: The company suddenly changed its internal rules, requiring all employees to keep their cameras on at all times during working hours.
 
 ### GoodWorks Co., Ltd.（2021/02 - 2021/12）
 
