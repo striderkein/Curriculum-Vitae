@@ -4,12 +4,12 @@
 
 ## Basic Information
 
-| key               | value                                      |
-| ----------------- | ------------------------------------------ |
-| Name              | Shirow Ozawa                               |
-| Date of Birth     | 1972-10-10                                 |
-| Residence         | Tokyo, Japan                               |
-| Highest Education | Faculty of Education, Yamanashi University |
+|key|value|
+|---|---|
+|Name|Shirow Ozawa|
+|Date of Birth|1972-10-10|
+|Residence|Tokyo, Japan|
+|Highest Education|Faculty of Education, Yamanashi University|
 
 ---
 
@@ -26,7 +26,7 @@
 
 ---
 
-## Technology Stack
+## Technolgy Stack
 
 ### Language
 
@@ -106,14 +106,13 @@ involved in the development of a Web application that utilizes WebRTC to enable 
   - Implementing the ability to attach files and use emojis in the chat feature
   - Implementing Undo/Redo functionality for the drawing feature using localStorage
 - **Reason for leaving**
-  - Privacy violation: The company suddenly changed its internal rules, requiring all employees to keep their cameras on at all times during working hours.
+  - Invasion of Privacy: Required to Keep Camera On During Work Hours
 
 ### GoodWorks Co., Ltd.（2021/02 - 2021/12）
 
 SES
 
 - Video Streaming Web App Development (2021/05 - 2021/11)
-
   - **Project Scale:**
     - Agile development with an average team size of 4-5 people
   - **Role:**
@@ -125,7 +124,6 @@ SES
     - Development of a web app to authenticate movie ticket numbers and enable home viewing, along with deployment environment setup
 
 - Development of a log collection batch for a smartphone app for public transportation (2021/10)
-
   - **Project Scale:**
     - Individual development
   - **Role:**
@@ -134,7 +132,6 @@ SES
     - Batch development using Python, AWS Batch, and AWS SAM
 
 - Development of a disaster information management system for government agencies (2021/04)
-
   - **Project Scale:**
     - Development with a team of 4 people
   - **Role:**
@@ -420,7 +417,6 @@ Sales Driver
 Contract Development
 
 - Development of point management system for shopping streets (2002-12 - 2003-01)
-
   - **Project Scale:**
     - Developed by one person
   - **Role:**
@@ -430,7 +426,6 @@ Contract Development
     - Visual C++
 
 - Development of promotion application for real estate agents (2002-12 - 2003-01)
-
   - **Project Scale:**
     - Developed by one person
   - **Role:**
