@@ -44,8 +44,8 @@
 ### フレームワーク・その他
 
 <p>
-<img alt="Vue" src="https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=Vue.js&logoColor=white" />
   <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
+  <img alt="Vue" src="https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=Vue.js&logoColor=white" />
   <img alt="Ruby-on-Rails" src="https://img.shields.io/badge/-Rails-CC0000?style=flat-square&logo=Ruby-on-Rails&logoColor=white" />
   <img alt="Apollo" src="https://img.shields.io/badge/-Apollo%20GraphQL-311C87?style=flat-square&logo=apollo-graphql&logoColor=white" />
   <img alt="GraphQL" src="https://img.shields.io/badge/-GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" />
@@ -63,7 +63,9 @@
 ### サーバーフリー株式会社（2024/02 - 現在）
 
 - **プロジェクト概要：**
-  - React + Next.js での フロントエンド開発
+  - 業務アプリケーション開発
+    - React + TypeScipt
+    - Spring Boot
 
 ### 株式会社ゼヒトモ（2022/08 - 2023/08）
 
@@ -75,7 +77,7 @@
 - **役割：**
   - 詳細設計、実装、テスト、コードレビュー
 - **プロジェクト詳細：**
-  - React + Next.js/Redux, AngularJS での フロントエンド開発
+  - TypeScript + Next.js/Redux, AngularJS での フロントエンド開発
     - 成約を促す UI の実装を行い、 CVR を 12% 改善した
   - express, MongoDB での API 開発
     - インフラとして AWS ECS, S3 を使用
@@ -163,7 +165,7 @@ SES
   - コードレビュー, ユニットテスト、 結合テスト
 - **プロジェクト詳細：**
   - Cognito を使用したユーザ認証基盤のプロトタイプ開発
-  - プッシュ通知作成用のバッチの開発
+  - プッシュ通知作成用のバッチの開発： TypeScript
   - 既存 Node.js アプリの Dockerize
 - **離職理由**
   - パワハラがあったため

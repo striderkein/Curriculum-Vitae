@@ -44,8 +44,8 @@
 ### Frameworks and Others
 
 <p>
-<img alt="Vue" src="https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=Vue.js&logoColor=white" />
   <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
+  <img alt="Vue" src="https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=Vue.js&logoColor=white" />
   <img alt="Ruby-on-Rails" src="https://img.shields.io/badge/-Rails-CC0000?style=flat-square&logo=Ruby-on-Rails&logoColor=white" />
   <img alt="Apollo" src="https://img.shields.io/badge/-Apollo%20GraphQL-311C87?style=flat-square&logo=apollo-graphql&logoColor=white" />
   <img alt="GraphQL" src="https://img.shields.io/badge/-GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" />
@@ -63,7 +63,9 @@
 ### Server-Free Corporation (2024/02 - Present)
 
 - **Project Overview:**
-  - Front-end development using React + Next.js
+  - Business application development
+    - React + TypeScript
+    - Spring Boot
 
 ### Zehitomo Co., Ltd.（2022/08 - 2023/08）
 
@@ -75,7 +77,7 @@ Led the design and implementation of additional features to enhance user conveni
 - **Role:**
   - Detailed design, implementation, testing, code review.
 - **Project Details:**
-  - Front-end development using React + Next.js/Redux, AngularJS.
+  - Front-end development using TypeScript + Next.js/Redux, AngularJS.
     - Implemented UI to drive conversions, resulting in a 12% improvement in CVR.
   - API development using express, MongoDB.
     - AWS ECS, S3 used for infrastructure.
@@ -85,7 +87,7 @@ Led the design and implementation of additional features to enhance user conveni
     - New development:
       - Increased new customer influx by 10%.
 - **Reason for leaving**
-  - Voluntary retirement due to the company’s declining performance
+  - Voluntary retirement due to the company's declining performance
 
 ### 2nd Community Co., Ltd.（2022/01 - 2022/07）
 
@@ -169,7 +171,7 @@ Development of a PWA (Progressive Web App) for retail electricity provider's con
   - Code review, unit testing, integration testing
 - **Project Details:**
   - Prototype development of user authentication infrastructure using Cognito
-  - Development of a batch for push notification creation
+  - Development of a batch for push notification creation using TypeScript
   - Dockerization of an existing Node.js application
 - **Reason for leaving**
   - workplace harrasment
