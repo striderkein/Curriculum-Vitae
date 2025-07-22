@@ -86,8 +86,6 @@ Led the design and implementation of additional features to enhance user conveni
       - Improved low-quality content, resulting in a 5-6% improvement in SEO score.
     - New development:
       - Increased new customer influx by 10%.
-- **Reason for leaving**
-  - Voluntary retirement due to the company's declining performance
 
 ### 2nd Community Co., Ltd.（2022/01 - 2022/07）
 
@@ -107,8 +105,6 @@ involved in the development of a Web application that utilizes WebRTC to enable 
     - Responsive design
   - Implementing the ability to attach files and use emojis in the chat feature
   - Implementing Undo/Redo functionality for the drawing feature using localStorage
-- **Reason for leaving**
-  - Privacy violation: The company suddenly changed its internal rules, requiring all employees to keep their cameras on at all times during working hours.
 
 ### GoodWorks Co., Ltd.（2021/02 - 2021/12）
 
@@ -156,8 +152,6 @@ SES
     - Development of a construction worker entrance/exit management system for COVID-19 prevention
     - Detailed design and implementation of front-end using Vue3/Vue
       - Detailed design and implementation of back-end using Express
-- **Reason for leaving**
-  - I wanted to work at a company involved in in-house development
 
 ### System I Co., Ltd.（2019/12 - 2020/12）
 
@@ -173,8 +167,6 @@ Development of a PWA (Progressive Web App) for retail electricity provider's con
   - Prototype development of user authentication infrastructure using Cognito
   - Development of a batch for push notification creation using TypeScript
   - Dockerization of an existing Node.js application
-- **Reason for leaving**
-  - workplace harrasment
 
 ### Mulodo Co., Ltd.（2019/03 - 2019/12）
 
@@ -198,8 +190,6 @@ Outsourced Development
   - **Project Details:**
     - Design and implementation of authentication infrastructure using Firebase, Firebase Realtime Database, and Firebase Authentication
     - Front-end implementation using React Native (Web, iOS, Android)
-- **Reason for leaving**
-  - company's bankruptcy.
 
 ### Koei System Co., Ltd.（2017/10 - 2019/02）
 
