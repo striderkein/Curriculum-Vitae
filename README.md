@@ -41,6 +41,10 @@ versioning semantically by applying labels that `major`, `minor`, `patch`.
 If no label is applied, the default version will be incremented as `patch`.
 If you want to explicitly increase a version other than `patch`, Attach either `major` or `minor` label to PR
 
+- `major`: 新しい職場の追加
+- `minor`: 既存の職場でのプロジェクトの追加
+- `patch`: 既存のプロジェクトの詳細の変更や追記
+
 ### 📆 Remind update
 
 Automatically generate issues every three months with GitHub Actions Schedules triggers to prompt you to update your resume.
