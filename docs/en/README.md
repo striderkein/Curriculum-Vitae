@@ -60,7 +60,22 @@
 
 ## Work Experience
 
-### Server-Free Corporation (2024/02 - Present)
+### SImount Inc. (2026/01 - Present)
+
+Engaged in full-stack development of "LogiGo," a logistics DX SaaS platform. Responsible for all aspects of development except infrastructure configuration, including new feature development, performance optimization, API design, and test infrastructure improvement. Adopted parallel development methodology using Claude Code.
+
+- **Project Scale:**
+  - Development with a team of 4 people
+- **Role:**
+  - Development team leader
+- **Project Details:**
+  - Front-end development using TypeScript + React
+  - Backend API development using NestJS + Prisma
+  - Database design using PostgreSQL
+  - Service operations on AWS
+  - Introduction of parallel development using Claude Code
+
+### Server-Free Corporation (2024/02 - 2025/11)
 
 Engaged in business system development for a major infrastructure company. Responsible for a wide range of tasks including backend API development, front-end modifications, and cloud infrastructure deployment.
 
@@ -76,6 +91,8 @@ Engaged in business system development for a major infrastructure company. Respo
   - Development of PDF generation REST API using Spring Boot (team of 2)
   - Front-end modification of business system using jQuery (team of 2)
   - Deployment of Spring Boot API to Azure App Service (team of 2)
+- **Reason for leaving**
+  - Personal reasons
 
 ### Zehitomo Co., Ltd.（2022/08 - 2023/08）
 
