@@ -62,10 +62,20 @@
 
 ### Server-Free Corporation (2024/02 - Present)
 
+Engaged in business system development for a major infrastructure company. Responsible for a wide range of tasks including backend API development, front-end modifications, and cloud infrastructure deployment.
+
 - **Project Overview:**
   - Business application development
     - React + TypeScript
     - Spring Boot
+    - MySQL
+- **Role:**
+  - Detailed design, implementation
+- **Project Details:**
+  - Development of data integration batch using Spring Boot (team of 2)
+  - Development of PDF generation REST API using Spring Boot (team of 2)
+  - Front-end modification of business system using jQuery (team of 2)
+  - Deployment of Spring Boot API to Azure App Service (team of 2)
 
 ### Zehitomo Co., Ltd.（2022/08 - 2023/08）
 
