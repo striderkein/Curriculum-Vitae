@@ -74,6 +74,15 @@ Engaged in full-stack development of "LogiGo," a logistics DX SaaS platform. Res
   - Database design using PostgreSQL
   - Service operations on AWS
   - Introduction of parallel development using Claude Code
+  - Led feature development around billing and payment
+    - Design and implementation of ancillary charge entry, aggregation, and report/CSV export features
+    - Design and implementation of consumption tax support (tax category selection, tax-inclusive/exclusive pricing, rounding)
+    - Change design of search and aggregation features based on closing dates
+  - Full migration of E2E tests to Playwright and test infrastructure improvement
+    - Built a flow that automatically files issues on E2E failures and applies AI-driven auto-fixes
+    - Introduced E2E coverage measurement (dark map)
+  - CI/CD improvements (migration to faster runners for cost and time savings, migration drift detection, VRT stabilization)
+  - Permanent fix for a production incident caused by expired authentication tokens
 
 ### Server-Free Corporation (2024/02 - 2025/11)
 
