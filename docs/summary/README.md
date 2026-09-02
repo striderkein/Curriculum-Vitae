@@ -15,7 +15,7 @@
 
 ## キャリアサマリー
 
-ソフトウェア開発歴 20 年以上のフルスタックエンジニア。TypeScript / React によるフロントエンドと、Node.js / Java / Ruby によるバックエンドを軸とする。現在は物流 DX SaaS の開発チームリーダーとして、Claude Code による AI 駆動開発を日常の開発フローに組み込んでいる。
+ソフトウェア開発歴 15 年のフルスタックエンジニア。TypeScript / React によるフロントエンドと、Node.js / Java / Ruby によるバックエンドを軸とする。現在は物流 DX SaaS の開発チームリーダーとして、Claude Code による AI 駆動開発を日常の開発フローに組み込んでいる。
 
 - **AI 駆動開発の日常的な実践**：Claude Code を毎日の開発環境として使用し、チームへの導入も主導。並列実装からコードレビュー自動化、E2E の自動修復まで運用
 - **4 名チームの開発リーダー**として物流 DX SaaS「LogiGo」を担当（TypeScript + React / NestJS + Prisma / PostgreSQL / AWS）。インフラ設定以外の全開発領域を担当
