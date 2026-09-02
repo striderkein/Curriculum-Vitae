@@ -1,6 +1,6 @@
 # Curriculum Vitae
 
-[日本語](https://striderkein.github.io/Curriculum-Vitae) | [English](https://striderkein.github.io/Curriculum-Vitae/en)
+[日本語](https://striderkein.github.io/Curriculum-Vitae) | [English](https://striderkein.github.io/Curriculum-Vitae/en) | [Summary](https://striderkein.github.io/Curriculum-Vitae/summary/en)
 
 ## Basic Information
 

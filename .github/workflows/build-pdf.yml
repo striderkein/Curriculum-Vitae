@@ -18,6 +18,10 @@ jobs:
         run: npm run build:pdf
       - name: build pdf-en
         run: npm run build:pdf-en
+      - name: build pdf summary
+        run: npm run build:pdf-summary
+      - name: build pdf summary-en
+        run: npm run build:pdf-summary-en
       - name: Get release
         id: get_release
         uses: bruceadams/get-release@v1.3.2
@@ -42,5 +46,25 @@ jobs:
           upload_url: ${{ steps.get_release.outputs.upload_url }}
           asset_path: ./docs/en/README.pdf
           asset_name: Curriculum-Vitae-en.pdf
+          asset_content_type: application/pdf
+      - name: upload Release Asset summary
+        id: upload-release-asset-summary
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.get_release.outputs.upload_url }}
+          asset_path: ./docs/summary/README.pdf
+          asset_name: Curriculum-Vitae-summary.pdf
+          asset_content_type: application/pdf
+      - name: upload Release Asset summary-en
+        id: upload-release-asset-summary-en
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.get_release.outputs.upload_url }}
+          asset_path: ./docs/summary/en/README.pdf
+          asset_name: Curriculum-Vitae-summary-en.pdf
           asset_content_type: application/pdf
 
