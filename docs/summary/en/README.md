@@ -15,7 +15,7 @@
 
 ## Career Summary
 
-Full-stack engineer with 20+ years in software development, focused on TypeScript / React front ends and Node.js / Java / Ruby back ends. Currently development team leader on a logistics DX SaaS product, where AI-driven development with Claude Code is part of the daily workflow.
+Full-stack engineer with 15 years in software development, focused on TypeScript / React front ends and Node.js / Java / Ruby back ends. Currently development team leader on a logistics DX SaaS product, where AI-driven development with Claude Code is part of the daily workflow.
 
 - **AI-driven development as a daily practice:** works in Claude Code every day and introduced it to the team, from parallel implementation to automated code review and self-healing E2E tests.
 - **Leading a 4-person team** on "LogiGo," a logistics DX SaaS (TypeScript + React / NestJS + Prisma / PostgreSQL / AWS), owning everything except infrastructure configuration.
