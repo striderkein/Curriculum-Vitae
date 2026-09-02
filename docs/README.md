@@ -1,6 +1,6 @@
 # 職務経歴書
 
-[日本語](https://striderkein.github.io/Curriculum-Vitae) | [English](https://striderkein.github.io/Curriculum-Vitae/en)
+[日本語](https://striderkein.github.io/Curriculum-Vitae) | [English](https://striderkein.github.io/Curriculum-Vitae/en) | [要約版](https://striderkein.github.io/Curriculum-Vitae/summary)
 
 ## 基本情報
 
