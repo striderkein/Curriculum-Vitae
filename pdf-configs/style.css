@@ -1,8 +1,15 @@
-@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
-
+/*
+ * Web フォントは読み込まない。
+ * 以前は Google Fonts の Noto Sans Japanese をプロトコル相対 URL で @import していたが、
+ * file:// 起点では file://fonts.googleapis.com に解決されて取得できず、
+ * CJK グリフを持たない DejaVu / Liberation にフォールバックして日本語がすべて豆腐になっていた（#96）。
+ * https にしても取得待ちでビルドが不安定になるため、環境にインストール済みのフォントだけで組む。
+ * macOS: Hiragino Kaku Gothic ProN / CI(ubuntu): Noto Sans CJK JP（ワークフローで fonts-noto-cjk を入れる）
+ */
 body {
   font-size: 12px;
-  font-family: "Noto Sans Japanese", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", "Noto Sans JP", Meiryo,
+    sans-serif;
 }
 
 h1:first-child {

@@ -3,17 +3,33 @@ name: build pdf
 on:
   release:
     types: [published]
+  # リリースを公開しなくても PDF をビルドして検証できるようにする
+  workflow_dispatch:
+  # PDF のレンダリングに影響する変更では、マージ前に成果物を確認できるようにする
+  pull_request:
+    paths:
+      - 'pdf-configs/**'
+      - '.github/workflows/build-pdf.yml'
+      - 'package.json'
 
 jobs:
   build:
     name: build pdf and upload release
     runs-on: ubuntu-22.04
+    # ハングしたジョブがランナー上限の 6 時間走り続けないように上限を切る
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
           node-version: '16'
       - run: npm install
+      # ubuntu ランナーには CJK フォントが入っておらず、入れないと日本語がすべて豆腐になる
+      - name: install Japanese fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto-cjk
+          fc-list :lang=ja family | sort -u
       - name: build pdf
         run: npm run build:pdf
       - name: build pdf-en
@@ -24,11 +40,13 @@ jobs:
         run: npm run build:pdf-summary-en
       - name: Get release
         id: get_release
+        if: github.event_name == 'release'
         uses: bruceadams/get-release@v1.3.2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: upload Release Asset
         id: upload-release-asset
+        if: github.event_name == 'release'
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -39,6 +57,7 @@ jobs:
           asset_content_type: application/pdf
       - name: upload Release Asset en
         id: upload-release-asset-en
+        if: github.event_name == 'release'
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -49,6 +68,7 @@ jobs:
           asset_content_type: application/pdf
       - name: upload Release Asset summary
         id: upload-release-asset-summary
+        if: github.event_name == 'release'
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -59,6 +79,7 @@ jobs:
           asset_content_type: application/pdf
       - name: upload Release Asset summary-en
         id: upload-release-asset-summary-en
+        if: github.event_name == 'release'
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -67,4 +88,14 @@ jobs:
           asset_path: ./docs/summary/en/README.pdf
           asset_name: Curriculum-Vitae-summary-en.pdf
           asset_content_type: application/pdf
-
+      # release 以外（workflow_dispatch / pull_request）では成果物をアーティファクトとして取り出せるようにする
+      - name: upload artifacts
+        if: github.event_name != 'release'
+        uses: actions/upload-artifact@v4
+        with:
+          name: pdfs
+          path: |
+            docs/README.pdf
+            docs/en/README.pdf
+            docs/summary/README.pdf
+            docs/summary/en/README.pdf
