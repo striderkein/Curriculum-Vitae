@@ -16,6 +16,8 @@ jobs:
   build:
     name: build pdf and upload release
     runs-on: ubuntu-22.04
+    # ハングしたジョブがランナー上限の 6 時間走り続けないように上限を切る
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
