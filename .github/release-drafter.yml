@@ -56,11 +56,11 @@ autolabeler:
   - label: refactor
     branch:
       - '/(refactor|refactoring)[/-].+/'
+  # NOTE: files ルールは付けない。職務経歴書リポジトリでは全 PR が *.md を変更するため、
+  # 全 PR に documentation が付き、feature 等と重複して同じ PR が複数カテゴリに掲載される
   - label: documentation
     branch:
       - '/doc(umentation|s)[/-].+/'
-    files:
-      - '*.md'
   - label: enhancement
     branch:
       - '/(enhancement|improve)[/-].+/'
