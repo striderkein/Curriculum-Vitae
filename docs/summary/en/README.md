@@ -91,12 +91,13 @@ Full-stack development of "LogiGo," a logistics DX SaaS platform. Responsible fo
 
 **Stack:** TypeScript + React / NestJS + Prisma / PostgreSQL / AWS / Playwright / GitHub Actions
 
-- Led feature development for billing and payment: ancillary charge entry and aggregation, report / CSV export, consumption tax support (tax category, tax-inclusive/exclusive pricing, rounding), and closing-date-based search and aggregation.
+- Led feature development for billing and payment: ancillary charge entry and aggregation, report / CSV export, consumption tax support (tax category, tax-inclusive/exclusive pricing, rounding), design and implementation of closing dates as a first-class feature (day-level closing dates, accounting months, closing-date-based search and aggregation), and monthly report improvements.
 - Delivered extensive features for the dispatch planning board: forced assignment / swap / unassignment, vehicle inspection due-date alerts, enhanced search, and drag-and-drop defect fixes.
-- Expanded master data management (vehicles, sites, customers; customer-site linking UI) with the underlying data model improvements.
+- Expanded master data management (vehicles, sites, customers; customer-site linking UI; CSV import for each master) with the underlying data model improvements.
+- Expanded Excel template-based report output, including delivery request forms, dispatch result reports, and vehicle number notices matching the company-wide format of a major logistics company.
 - Built the E2E / VRT test platform with Playwright from scratch and led the full migration: visual regression testing, nightly automated runs, automatic issue filing on E2E failure with AI-driven auto-fixes, and E2E coverage measurement.
 - Automated the development process with Claude Code skills and GitHub Actions: code review, review requests, two-way sync with the ticket management system, and notifications; ran multiple Claude Code sessions on git worktrees to develop features in parallel.
-- Improved CI/CD and performance: faster runners for cost and time savings, migration drift detection, VRT stabilization, API response compression, monitoring alarms as IaC, and a permanent fix for a production incident caused by expired authentication tokens.
+- Improved CI/CD and performance: faster runners for cost and time savings, migration drift detection, VRT stabilization, API response compression, monitoring alarms as IaC, better observability with Sentry, and a permanent fix for a production incident caused by expired authentication tokens.
 
 ### Server-Free Corporation (2024/02 - 2025/11) — Detailed Design, Implementation
 
