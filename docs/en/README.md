@@ -76,17 +76,30 @@ Engaged in full-stack development of "LogiGo," a logistics DX SaaS platform. Res
   - Introduction of parallel development using Claude Code
   - Extensive feature development and improvement of the dispatch planning board (forced assignment/swap/unassignment, vehicle inspection due-date alerts, enhanced search, drag-and-drop bug fixes)
   - Expansion of master data management features (additional fields for vehicles, sites, and customers; customer-site linking UI) and data model improvements
+    - Implemented CSV import for the packaging, vehicle type, vehicle class, delivery type, and vehicle attribute masters, and unified the import/export UI into shared components
+    - Implemented custom keys on operation records (display, cross-field search, editing, and change history)
   - Led feature development around billing and payment
     - Design and implementation of ancillary charge entry, aggregation, and report/CSV export features
     - Design and implementation of consumption tax support (tax category selection, tax-inclusive/exclusive pricing, rounding)
-    - Change design of search and aggregation features based on closing dates
+    - Design and implementation of closing dates as a first-class feature (day-level closing date settings, billing/payment accounting months with migration of existing data, and closing-date-based search, aggregation, and CSV export)
+    - Improvements to monthly billing and payment reports (closing-date-based periods, re-aggregation over arbitrary date ranges, and hiding line items from billing reports)
+  - Expansion of report output based on Excel templates
+    - Delivery request forms, dispatch result reports, and vehicle number notices matching the company-wide format of a major logistics company
+    - Tenant-level template placement, sheet names determined by expressions, and new merge variables such as ancillary charges and cargo handling work
+    - Added cargo handling fields (outsourced or not, planned work time, remarks) to delivery requests, with defaults configurable in the customer master
   - Built the E2E/VRT test infrastructure with Playwright from scratch and led the full migration
     - Introduced visual regression testing (VRT) and nightly automated runs
     - Built a flow that automatically files issues on E2E failures and applies AI-driven auto-fixes
     - Introduced E2E coverage measurement (dark map)
+    - Retrofitted existing E2E tests to a model pattern step by step, and prevented hollow tests from recurring through linting
+    - Moved VRT to nightly runs, eliminated false diffs by making font loading hermetic, and established an operational workflow for regenerating baselines
   - Development process automation with Claude Code skills and GitHub Actions (code review, review requests, two-way sync with the ticket management system, various notifications)
-  - CI/CD improvements (migration to faster runners for cost and time savings, migration drift detection, VRT stabilization)
+  - CI/CD improvements (migration to faster runners for cost and time savings, migration drift detection, VRT stabilization, migration to pnpm)
+  - Release process improvements (automatic creation of back-merge PRs after releases, documentation of the branch model and merge flow, and a procedure for off-cycle STG releases)
   - Performance improvements such as introducing API response compression, and monitoring alarms as IaC
+    - Required date ranges with an upper limit on list searches to prevent searches over very large data sets
+    - Improved observability by recording database connection and transaction spans in Sentry and tagging events with tenant and site identifiers
+  - Cleanup to reduce maintenance cost, such as removing a dormant feature (billing fare import)
   - Permanent fix for a production incident caused by expired authentication tokens
 
 ### Server-Free Corporation (2024/02 - 2025/11)
