@@ -201,4 +201,4 @@ SES。1〜6 名のウォーターフォール／アジャイル体制で 13 の�
 
 ## 課外活動
 
-- **OSS・個人開発：** [backlog-tamer](https://github.com/striderkein/backlog-tamer)（CLI ツール）の開発、および MDN ドキュメント翻訳をはじめとする OSS への PR 作成
+- **OSS・個人開発：** [backlog-tamer](https://github.com/striderkein/backlog-tamer)（CLI ツール）および [dev-wisdom](https://github.com/striderkein/dev-wisdom)（REST API）の開発、および MDN ドキュメント翻訳をはじめとする OSS への PR 作成
