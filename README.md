@@ -5,18 +5,9 @@
 - GitHub Pages
   - [ja](https://striderkein.github.io/Curriculum-Vitae)
   - [en](https://striderkein.github.io/Curriculum-Vitae/en)
-  - [ja (summary)](https://striderkein.github.io/Curriculum-Vitae/summary)
-  - [en (summary)](https://striderkein.github.io/Curriculum-Vitae/summary/en)
 - PDF
   - [ja](https://github.com/striderkein/Curriculum-Vitae/releases/latest/download/Curriculum-Vitae.pdf)
   - [en](https://github.com/striderkein/Curriculum-Vitae/releases/latest/download/Curriculum-Vitae-en.pdf)
-  - [ja (summary)](https://github.com/striderkein/Curriculum-Vitae/releases/latest/download/Curriculum-Vitae-summary.pdf)
-  - [en (summary)](https://github.com/striderkein/Curriculum-Vitae/releases/latest/download/Curriculum-Vitae-summary-en.pdf)
-- File
-  - [ja](https://github.com/striderkein/Curriculum-Vitae/blob/master/docs/README.md)
-  - [en](https://github.com/striderkein/Curriculum-Vitae/blob/master/docs/en/README.md)
-  - [ja (summary)](https://github.com/striderkein/Curriculum-Vitae/blob/master/docs/summary/README.md)
-  - [en (summary)](https://github.com/striderkein/Curriculum-Vitae/blob/master/docs/summary/en/README.md)
 
 ## Features
 
