@@ -524,6 +524,13 @@ B フレッツ販売員
       <td><img alt="Forks" src="https://img.shields.io/github/forks/striderkein/backlog-tamer?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Issues" src="https://img.shields.io/github/issues/striderkein/backlog-tamer?style=flat-square&labelColor=343b41"/></td>
     </tr>
+    <tr>
+      <td><a href="https://github.com/striderkein/dev-wisdom"><b>dev-wisdom</b></a></td>
+      <td><img alt="nodedotjs" src="https://img.shields.io/badge/-339933?style=flat-square&logo=nodedotjs&logoColor=white" /> <img alt="express" src="https://img.shields.io/badge/-000000?style=flat-square&logo=express&logoColor=white" /></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/striderkein/dev-wisdom?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github/forks/striderkein/dev-wisdom?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Issues" src="https://img.shields.io/github/issues/striderkein/dev-wisdom?style=flat-square&labelColor=343b41"/></td>
+    </tr>
   </tbody>
 </table>
 

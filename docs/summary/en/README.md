@@ -201,4 +201,4 @@ SES. 13 projects in waterfall and agile teams of 1-6, mainly in finance, public 
 
 ## Extracurricular Activities
 
-- **OSS and personal development:** [backlog-tamer](https://github.com/striderkein/backlog-tamer) (CLI tool), and pull requests to OSS including MDN documentation translation.
+- **OSS and personal development:** [backlog-tamer](https://github.com/striderkein/backlog-tamer) (CLI tool) and [dev-wisdom](https://github.com/striderkein/dev-wisdom) (REST API), and pull requests to OSS including MDN documentation translation.
