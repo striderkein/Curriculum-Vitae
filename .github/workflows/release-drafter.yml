@@ -1,6 +1,9 @@
 name: Release Drafter
 
 on:
+  # draft を任意のタイミングで再生成する（push 直後は commit と PR の紐付けが
+  # 間に合わず直前マージの PR が掲載漏れすることがあるため、公開前の作り直しに使う）
+  workflow_dispatch:
   push:
     # branches to consider in the event; optional, defaults to all
     branches:
